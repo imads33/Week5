@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-public class Application {
+public class StudentDetails {
  
     public static void main(String[] args) {
         // Read student info (id, name, gender,city)
