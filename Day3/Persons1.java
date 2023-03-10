@@ -10,10 +10,9 @@ class newPerson {
         System.out.println("Enter name");
         name = sc.nextLine();
         System.out.println("Enter Gender");
-        gender = sc.nextLine();
+        gender = sc.next();
         System.out.println("Enter age");
         age = sc.nextInt();
-
     }
 
     void display() {

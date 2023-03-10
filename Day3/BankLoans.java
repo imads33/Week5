@@ -7,6 +7,10 @@ class BankLoan{
         this.intrest=intrest;
         principleAmount=intrest*amount/100;
         totalAmount=principleAmount+amount;
+
+        if(totalAmount>100000){
+            period=12;
+        }
     }
 }
 

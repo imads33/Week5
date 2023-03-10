@@ -1,4 +1,3 @@
-
 class Invoice {
     String name, product;
     int quantity;
